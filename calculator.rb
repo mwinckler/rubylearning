@@ -14,6 +14,10 @@ def divide(operand_1, operand_2)
   return operand_1 / operand_2
 end
 
+def power(operand_1, operand_2)
+  return operand_1 ** operand_2
+end
+
 # ask the user what kind of math operation he wants to do
 # (add, subtract, multiply, divide)
 puts "Give me an operation!"
@@ -39,7 +43,7 @@ when "*"
 when "/"
   result = divide(operand_1, operand_2)
 when "**"
-  result = operand_1 ** operand_2
+  result = power(operand_1, operand_2)
 else
   puts "I have no idea what you intended to do here."
 end
