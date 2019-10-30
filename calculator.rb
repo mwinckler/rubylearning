@@ -38,6 +38,8 @@ when "*"
   result = multiply(operand_1, operand_2)
 when "/"
   result = divide(operand_1, operand_2)
+when "**"
+  result = operand_1 ** operand_2
 else
   puts "I have no idea what you intended to do here."
 end
