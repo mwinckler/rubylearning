@@ -14,6 +14,7 @@ def divide(operand_1, operand_2)
   return operand_1 / operand_2
 end
 
+# Raise operand_1 to the operand_2th power
 def power(operand_1, operand_2)
   return operand_1 ** operand_2
 end
