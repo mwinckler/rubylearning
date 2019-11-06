@@ -36,7 +36,9 @@ if choice1 == "1"
         puts "You draw your sword and rush forward to stab the king. The king laughs, pulls out his dagger, and gores you as soon as you are close enough. You failed. "
     elsif choice5 == "2"
         puts "You submit to the king, and give him your services. He is touched, and names you as heir. But your adventure is not yet over. The king sends you on an adventure. Do you accept the challenge or decline?"
-    end
+        puts "If you accept, hit 1."
+        puts "If you decline, please press 2 in order to continue."
+  end
 
     elsif choice2 == "2"
     puts "You take a magnifying glass and attempt to burn a path through, but the sun's angle moves and you burn yourself badly, which eventually causes your death due to having no medical care for your first degree burn. You failed."
