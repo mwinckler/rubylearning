@@ -14,6 +14,7 @@ def divide(operand_1, operand_2)
   return operand_1 / operand_2
 end
 
+# We need to welcome our clientele with a welcoming welcome message, making them feel welcomed
 puts "Hello! Welcome to our wondrous calculator!"
 
 # ask the user what kind of math operation he wants to do
