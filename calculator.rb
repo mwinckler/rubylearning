@@ -14,7 +14,7 @@ def divide(operand_1, operand_2)
   return operand_1 / operand_2
 end
 
-puts "Hello! Welcome to our wondrous calculator!"
+puts "Hello! Welcome to our wondrous calculator! It was built by me."
 
 # ask the user what kind of math operation he wants to do
 # (add, subtract, multiply, divide)
