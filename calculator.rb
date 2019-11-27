@@ -56,21 +56,4 @@ else
   puts "I have no idea what you intended to do here."
 end
 
-# Instead of a case statement, we could use basic conditionals.
-# The following lines do the same thing as the case statement above:
-#
-#if operator == "+"
- #  result = add(operand_1, operand_2)
- #elsif operator == "-"
-  # result = subtract(operand_1, operand_2)
- #elsif operator == "*"
- #  result = multiply(operand_1, operand_2)
- #elsif operator == "/"
- #  result = divide(operand_1, operand_2)
- #elsif operator == "^"
- #   result = exponent(operand_1, operand_2)
- #else
- #  puts "I have no idea what you intended to do here."
-#end
-
 print result
